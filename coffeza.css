@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden ;
+}
+@media(max-width:920px) {
+
+    section{
+        width: 100%!important;
+    }
+
+    
+    .hcon h1{
+        padding-top: 110%!important;
+    }
+    .about {
+        background-size: initial!important;
+        height: initial!important;
+    }
+    .bg-image {
+
+        height: 130vh!important;
+    }
+    .bgc-image {
+       
+        margin-top: 30px!important;
+    }
+    .media img{
+        width: 20%!important;
+    }
+    nav img{
+        width: 20%!important;
+    }
+    
+.cup h6{
+    font-size: 20px;
+    font-weight: initial;
+}
+}
+
+
+nav img{
+    width: 10%;
+}
+.pic{
+   padding: 2%;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.5)!important;
+    position: relative;
+}
+.bg-image{
+    transition: all 2s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height:110vh;
+}
+
+.bgc-image{
+    transition: all 2s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height:110vh;
+}
+.bgc-image:hover{
+    transform: scale(1.05);
+}
+.bg-image:hover{
+    transform: scale(1.05);
+}
+
+
+.head h1{
+    text-align: center;
+   padding-top: 300px;
+    color: white;
+    font-family: Playfair Display,serif;
+    font-size: 60px;
+}
+.head h1 span{
+    font-size: 30px;
+}
+.head button:hover{
+    color: #deb887!important;
+    text-align: center;
+}
+h6{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: SofiaPro;
+    text-transform: uppercase;
+}
+
+.social i{
+    font-size: 100px;
+    color: black;
+   opacity: 0;
+    padding: 45%;
+    transition: all 1s;
+}
+.social i:hover{
+    font-size: 100px;
+    color: black;
+    opacity: 1;
+    padding: 45%;
+}
+
+.shop h1{
+    text-align: center!important;
+    border-bottom: 2px solid burlywood;
+    font-family: Playfair Display,serif;
+}
+.shop img{
+    transition: all 0.9s linear;
+    border-radius: 50%;
+    width: 95%;
+}
+.shop img:hover{
+    transform: scale(1.08); 
+}
+.shop h2{
+    font-family: Playfair Display,serif;
+    padding-top:30px;
+    text-align: center;
+    border-bottom: #deb887 2px solid;
+
+}
+ .rating-done i{
+    color: #deb887;
+ }
+.content-box {
+    font-family: SofiaPro;
+    color: #888;
+    text-align: center;
+}
+
+.fb{
+    display:none;
+}
+ h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #deb887;
+    font-weight: normal;
+}
+
+
+
+.sb{
+    display: none;
+}
+.tb{
+    display: none;
+}
+
+.product p{
+    font-size: larger;
+    font-weight: 900;
+    font-family: none;
+}
+.banner{
+    background-image: url(banner.webp);
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: cover;
+height:600px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    
+}
+.about img{
+    transition: all 1.5s;
+}
+.about img:hover{
+    transform: scale(0.93);
+    filter: grayscale(100%)
+
+}
+.banner h1{
+    
+    padding: 7%;
+}
+.arrival h2{
+border-bottom: #deb887 2px solid;
+font-family:'Times New Roman', Times, serif;
+}
+ h2{
+    border-bottom: #deb887 2px solid;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    }
+li{
+    list-style: none;
+}
+footer{
+    border-top:black 2px solid;
+}
+footer span{
+    color: #deb887;
+}
+footer i{
+    font-size: x-large;
+}
+a:hover{
+    text-decoration: none;
+}
+.hcon{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.des_intro {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    font-family: SofiaPro;
+    font-weight: 400;
+    font-style: normal;
+}
+.title_intro {
+    border-bottom: #deb887 2px solid;
+    font-size: 36px;
+    color: #333;
+    text-align: left;
+    font-family: SofiaPro;
+    font-weight: 600;
+    line-height: 43px;
+    font-style: normal;
+    position: relative;
+    padding-bottom: 25px;
+}
+.content_intro {
+    margin-top: 35px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    font-family: SofiaPro;
+    font-weight: 400;
+}
